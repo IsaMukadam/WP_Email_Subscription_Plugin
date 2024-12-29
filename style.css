@@ -1,0 +1,66 @@
+/* Subscribe Section */
+.subscribe {
+    width: 100%; /* Use 100% width */
+    background: linear-gradient(45deg, #ff9800, #7e57c2);
+    color: white;
+    text-align: center;
+    padding: 50px 0; /* Adjust padding to remove left and right gap */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0; /* Ensure no margin */
+}
+
+.subscribe-content {
+    max-width: 600px;
+    margin: 0 auto; /* Center content */
+    padding: 0; /* Remove any extra padding */
+}
+
+.subscribe h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.subscribe p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    line-height: 1.6;
+}
+
+.subscribe-form {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin: 0; /* Ensure no margin on the form */
+}
+
+.subscribe-form input {
+    flex: 1; /* Ensures the input takes up most of the space */
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    outline: none;
+}
+
+.subscribe-form button {
+    padding: 15px 30px;
+    background: white;
+    color: #7e57c2;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    outline: none;
+}
+
+.subscribe-form button:hover {
+    background: #f4f4f4;
+    transform: translateY(-2px);
+}
