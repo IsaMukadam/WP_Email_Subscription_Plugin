@@ -49,6 +49,5 @@ function my_subscribe_form_shortcode() {
     return ob_get_clean();
 }
 add_shortcode('subscribe_form', 'my_subscribe_form_shortcode');
-
 ?>
 
