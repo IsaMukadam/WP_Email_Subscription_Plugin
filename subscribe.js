@@ -11,14 +11,15 @@ jQuery(document).ready(function($) {
                 method: 'POST',
                 data: { email: email, subscribe_form_submit: true },
                 success: function(response) {
-                    alert('Subscription successful!');
+                    // If the form is successfully submitted, refresh the page
+                    window.location.reload();
                 },
                 error: function(error) {
-                    alert('There was an error, please try again later.');
+                    console.log('Error:', error);
                 }
             });
         } else {
-            alert('Please enter a valid email.');
+            console.log('Please enter a valid email.');
         }
     });
 });
